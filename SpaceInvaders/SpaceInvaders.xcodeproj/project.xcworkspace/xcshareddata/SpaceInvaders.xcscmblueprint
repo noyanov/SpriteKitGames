@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2004CCA0E639DF46F15EA627734E5529D0322CFF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2004CCA0E639DF46F15EA627734E5529D0322CFF" : 9223372036854775807,
+    "E2214454BD0F86DE7A8311AF20C4B29B752C8056" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "73F4ABC1-5572-4CE0-8FDC-7EB2FD5B81CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2004CCA0E639DF46F15EA627734E5529D0322CFF" : "SpriteKitGames\/",
+    "E2214454BD0F86DE7A8311AF20C4B29B752C8056" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SpaceInvaders",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SpaceInvaders\/SpaceInvaders.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/noyanov\/SpriteKitGames.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2004CCA0E639DF46F15EA627734E5529D0322CFF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AlexNoyanov\/LedIndicator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2214454BD0F86DE7A8311AF20C4B29B752C8056"
+    }
+  ]
+}

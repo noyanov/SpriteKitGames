@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D913DD611D8BB14F000AD569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD601D8BB14F000AD569 /* Foundation.framework */; };
+		D913DD631D8BB14F000AD569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD621D8BB14F000AD569 /* CoreGraphics.framework */; };
+		D913DD651D8BB14F000AD569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD641D8BB14F000AD569 /* UIKit.framework */; };
+		D913DD671D8BB14F000AD569 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD661D8BB14F000AD569 /* SpriteKit.framework */; };
+		D913DD6D1D8BB14F000AD569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D913DD6B1D8BB14F000AD569 /* InfoPlist.strings */; };
+		D913DD6F1D8BB14F000AD569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DD6E1D8BB14F000AD569 /* main.m */; };
+		D913DD731D8BB14F000AD569 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DD721D8BB14F000AD569 /* ANAppDelegate.m */; };
+		D913DD761D8BB14F000AD569 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913DD741D8BB14F000AD569 /* Main_iPhone.storyboard */; };
+		D913DD791D8BB14F000AD569 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913DD771D8BB14F000AD569 /* Main_iPad.storyboard */; };
+		D913DD7C1D8BB14F000AD569 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DD7B1D8BB14F000AD569 /* ANViewController.m */; };
+		D913DD7F1D8BB14F000AD569 /* ANMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DD7E1D8BB14F000AD569 /* ANMyScene.m */; };
+		D913DD811D8BB14F000AD569 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D913DD801D8BB14F000AD569 /* Spaceship.png */; };
+		D913DD831D8BB14F000AD569 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D913DD821D8BB14F000AD569 /* Images.xcassets */; };
+		D913DD8A1D8BB150000AD569 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD891D8BB150000AD569 /* XCTest.framework */; };
+		D913DD8B1D8BB150000AD569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD601D8BB14F000AD569 /* Foundation.framework */; };
+		D913DD8C1D8BB150000AD569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DD641D8BB14F000AD569 /* UIKit.framework */; };
+		D913DD941D8BB150000AD569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D913DD921D8BB150000AD569 /* InfoPlist.strings */; };
+		D913DD961D8BB150000AD569 /* PingPongSpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DD951D8BB150000AD569 /* PingPongSpriteKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D913DD8D1D8BB150000AD569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D913DD551D8BB14F000AD569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D913DD5C1D8BB14F000AD569;
+			remoteInfo = PingPongSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D913DD5D1D8BB14F000AD569 /* PingPongSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPongSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913DD601D8BB14F000AD569 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D913DD621D8BB14F000AD569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D913DD641D8BB14F000AD569 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D913DD661D8BB14F000AD569 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D913DD6A1D8BB14F000AD569 /* PingPongSpriteKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingPongSpriteKit-Info.plist"; sourceTree = "<group>"; };
+		D913DD6C1D8BB14F000AD569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D913DD6E1D8BB14F000AD569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D913DD701D8BB14F000AD569 /* PingPongSpriteKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingPongSpriteKit-Prefix.pch"; sourceTree = "<group>"; };
+		D913DD711D8BB14F000AD569 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		D913DD721D8BB14F000AD569 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
+		D913DD751D8BB14F000AD569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D913DD781D8BB14F000AD569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D913DD7A1D8BB14F000AD569 /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
+		D913DD7B1D8BB14F000AD569 /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
+		D913DD7D1D8BB14F000AD569 /* ANMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANMyScene.h; sourceTree = "<group>"; };
+		D913DD7E1D8BB14F000AD569 /* ANMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANMyScene.m; sourceTree = "<group>"; };
+		D913DD801D8BB14F000AD569 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		D913DD821D8BB14F000AD569 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D913DD881D8BB150000AD569 /* PingPongSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPongSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913DD891D8BB150000AD569 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D913DD911D8BB150000AD569 /* PingPongSpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingPongSpriteKitTests-Info.plist"; sourceTree = "<group>"; };
+		D913DD931D8BB150000AD569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D913DD951D8BB150000AD569 /* PingPongSpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingPongSpriteKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D913DD5A1D8BB14F000AD569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DD631D8BB14F000AD569 /* CoreGraphics.framework in Frameworks */,
+				D913DD651D8BB14F000AD569 /* UIKit.framework in Frameworks */,
+				D913DD671D8BB14F000AD569 /* SpriteKit.framework in Frameworks */,
+				D913DD611D8BB14F000AD569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913DD851D8BB150000AD569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DD8A1D8BB150000AD569 /* XCTest.framework in Frameworks */,
+				D913DD8C1D8BB150000AD569 /* UIKit.framework in Frameworks */,
+				D913DD8B1D8BB150000AD569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D913DD541D8BB14F000AD569 = {
+			isa = PBXGroup;
+			children = (
+				D913DD681D8BB14F000AD569 /* PingPongSpriteKit */,
+				D913DD8F1D8BB150000AD569 /* PingPongSpriteKitTests */,
+				D913DD5F1D8BB14F000AD569 /* Frameworks */,
+				D913DD5E1D8BB14F000AD569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D913DD5E1D8BB14F000AD569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D913DD5D1D8BB14F000AD569 /* PingPongSpriteKit.app */,
+				D913DD881D8BB150000AD569 /* PingPongSpriteKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D913DD5F1D8BB14F000AD569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D913DD601D8BB14F000AD569 /* Foundation.framework */,
+				D913DD621D8BB14F000AD569 /* CoreGraphics.framework */,
+				D913DD641D8BB14F000AD569 /* UIKit.framework */,
+				D913DD661D8BB14F000AD569 /* SpriteKit.framework */,
+				D913DD891D8BB150000AD569 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D913DD681D8BB14F000AD569 /* PingPongSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				D913DD711D8BB14F000AD569 /* ANAppDelegate.h */,
+				D913DD721D8BB14F000AD569 /* ANAppDelegate.m */,
+				D913DD741D8BB14F000AD569 /* Main_iPhone.storyboard */,
+				D913DD771D8BB14F000AD569 /* Main_iPad.storyboard */,
+				D913DD7A1D8BB14F000AD569 /* ANViewController.h */,
+				D913DD7B1D8BB14F000AD569 /* ANViewController.m */,
+				D913DD7D1D8BB14F000AD569 /* ANMyScene.h */,
+				D913DD7E1D8BB14F000AD569 /* ANMyScene.m */,
+				D913DD801D8BB14F000AD569 /* Spaceship.png */,
+				D913DD821D8BB14F000AD569 /* Images.xcassets */,
+				D913DD691D8BB14F000AD569 /* Supporting Files */,
+			);
+			path = PingPongSpriteKit;
+			sourceTree = "<group>";
+		};
+		D913DD691D8BB14F000AD569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D913DD6A1D8BB14F000AD569 /* PingPongSpriteKit-Info.plist */,
+				D913DD6B1D8BB14F000AD569 /* InfoPlist.strings */,
+				D913DD6E1D8BB14F000AD569 /* main.m */,
+				D913DD701D8BB14F000AD569 /* PingPongSpriteKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D913DD8F1D8BB150000AD569 /* PingPongSpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D913DD951D8BB150000AD569 /* PingPongSpriteKitTests.m */,
+				D913DD901D8BB150000AD569 /* Supporting Files */,
+			);
+			path = PingPongSpriteKitTests;
+			sourceTree = "<group>";
+		};
+		D913DD901D8BB150000AD569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D913DD911D8BB150000AD569 /* PingPongSpriteKitTests-Info.plist */,
+				D913DD921D8BB150000AD569 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D913DD5C1D8BB14F000AD569 /* PingPongSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D913DD991D8BB150000AD569 /* Build configuration list for PBXNativeTarget "PingPongSpriteKit" */;
+			buildPhases = (
+				D913DD591D8BB14F000AD569 /* Sources */,
+				D913DD5A1D8BB14F000AD569 /* Frameworks */,
+				D913DD5B1D8BB14F000AD569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingPongSpriteKit;
+			productName = PingPongSpriteKit;
+			productReference = D913DD5D1D8BB14F000AD569 /* PingPongSpriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D913DD871D8BB150000AD569 /* PingPongSpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D913DD9C1D8BB150000AD569 /* Build configuration list for PBXNativeTarget "PingPongSpriteKitTests" */;
+			buildPhases = (
+				D913DD841D8BB150000AD569 /* Sources */,
+				D913DD851D8BB150000AD569 /* Frameworks */,
+				D913DD861D8BB150000AD569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D913DD8E1D8BB150000AD569 /* PBXTargetDependency */,
+			);
+			name = PingPongSpriteKitTests;
+			productName = PingPongSpriteKitTests;
+			productReference = D913DD881D8BB150000AD569 /* PingPongSpriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D913DD551D8BB14F000AD569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Noyanov";
+				TargetAttributes = {
+					D913DD871D8BB150000AD569 = {
+						TestTargetID = D913DD5C1D8BB14F000AD569;
+					};
+				};
+			};
+			buildConfigurationList = D913DD581D8BB14F000AD569 /* Build configuration list for PBXProject "PingPongSpriteKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D913DD541D8BB14F000AD569;
+			productRefGroup = D913DD5E1D8BB14F000AD569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D913DD5C1D8BB14F000AD569 /* PingPongSpriteKit */,
+				D913DD871D8BB150000AD569 /* PingPongSpriteKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D913DD5B1D8BB14F000AD569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DD811D8BB14F000AD569 /* Spaceship.png in Resources */,
+				D913DD831D8BB14F000AD569 /* Images.xcassets in Resources */,
+				D913DD791D8BB14F000AD569 /* Main_iPad.storyboard in Resources */,
+				D913DD761D8BB14F000AD569 /* Main_iPhone.storyboard in Resources */,
+				D913DD6D1D8BB14F000AD569 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913DD861D8BB150000AD569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DD941D8BB150000AD569 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D913DD591D8BB14F000AD569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DD6F1D8BB14F000AD569 /* main.m in Sources */,
+				D913DD7F1D8BB14F000AD569 /* ANMyScene.m in Sources */,
+				D913DD7C1D8BB14F000AD569 /* ANViewController.m in Sources */,
+				D913DD731D8BB14F000AD569 /* ANAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913DD841D8BB150000AD569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DD961D8BB150000AD569 /* PingPongSpriteKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D913DD8E1D8BB150000AD569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D913DD5C1D8BB14F000AD569 /* PingPongSpriteKit */;
+			targetProxy = D913DD8D1D8BB150000AD569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D913DD6B1D8BB14F000AD569 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DD6C1D8BB14F000AD569 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D913DD741D8BB14F000AD569 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DD751D8BB14F000AD569 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D913DD771D8BB14F000AD569 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DD781D8BB14F000AD569 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D913DD921D8BB150000AD569 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DD931D8BB150000AD569 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D913DD971D8BB150000AD569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D913DD981D8BB150000AD569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D913DD9A1D8BB150000AD569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPongSpriteKit/PingPongSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "PingPongSpriteKit/PingPongSpriteKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D913DD9B1D8BB150000AD569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPongSpriteKit/PingPongSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "PingPongSpriteKit/PingPongSpriteKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D913DD9D1D8BB150000AD569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PingPongSpriteKit.app/PingPongSpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPongSpriteKit/PingPongSpriteKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PingPongSpriteKitTests/PingPongSpriteKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D913DD9E1D8BB150000AD569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PingPongSpriteKit.app/PingPongSpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPongSpriteKit/PingPongSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "PingPongSpriteKitTests/PingPongSpriteKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D913DD581D8BB14F000AD569 /* Build configuration list for PBXProject "PingPongSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913DD971D8BB150000AD569 /* Debug */,
+				D913DD981D8BB150000AD569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D913DD991D8BB150000AD569 /* Build configuration list for PBXNativeTarget "PingPongSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913DD9A1D8BB150000AD569 /* Debug */,
+				D913DD9B1D8BB150000AD569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D913DD9C1D8BB150000AD569 /* Build configuration list for PBXNativeTarget "PingPongSpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913DD9D1D8BB150000AD569 /* Debug */,
+				D913DD9E1D8BB150000AD569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D913DD551D8BB14F000AD569 /* Project object */;
+}

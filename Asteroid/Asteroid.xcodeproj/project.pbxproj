@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8FBE8D1D99B3BE006C264A /* shuttle.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBE881D99B3BE006C264A /* shuttle.png */; };
+		BC8FBE8E1D99B3BE006C264A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBE891D99B3BE006C264A /* star.png */; };
+		BC8FBE8F1D99B3BE006C264A /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBE8A1D99B3BE006C264A /* sun.png */; };
+		BC8FBE901D99B3BE006C264A /* space_stars.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBE8B1D99B3BE006C264A /* space_stars.png */; };
+		BC8FBE911D99B3BE006C264A /* space.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBE8C1D99B3BE006C264A /* space.png */; };
+		BC8FBEDA1D99B95B006C264A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBED81D99B95B006C264A /* LaunchScreen.storyboard */; };
+		BC8FBEDC1D99BA90006C264A /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBEDB1D99BA90006C264A /* launch.jpg */; };
+		BC8FBEDE1D99BCCA006C264A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BC8FBEDD1D99BCCA006C264A /* icons */; };
+		D913DE691D8D5CC8000AD569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE681D8D5CC8000AD569 /* Foundation.framework */; };
+		D913DE6B1D8D5CC8000AD569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE6A1D8D5CC8000AD569 /* CoreGraphics.framework */; };
+		D913DE6D1D8D5CC8000AD569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE6C1D8D5CC8000AD569 /* UIKit.framework */; };
+		D913DE6F1D8D5CC8000AD569 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE6E1D8D5CC8000AD569 /* SpriteKit.framework */; };
+		D913DE751D8D5CC8000AD569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D913DE731D8D5CC8000AD569 /* InfoPlist.strings */; };
+		D913DE771D8D5CC8000AD569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE761D8D5CC8000AD569 /* main.m */; };
+		D913DE7B1D8D5CC8000AD569 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE7A1D8D5CC8000AD569 /* ANAppDelegate.m */; };
+		D913DE7E1D8D5CC8000AD569 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913DE7C1D8D5CC8000AD569 /* Main_iPhone.storyboard */; };
+		D913DE811D8D5CC8000AD569 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913DE7F1D8D5CC8000AD569 /* Main_iPad.storyboard */; };
+		D913DE841D8D5CC8000AD569 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE831D8D5CC8000AD569 /* ANViewController.m */; };
+		D913DE871D8D5CC8000AD569 /* ANMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE861D8D5CC8000AD569 /* ANMyScene.m */; };
+		D913DE891D8D5CC8000AD569 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D913DE881D8D5CC8000AD569 /* Spaceship.png */; };
+		D913DE8B1D8D5CC8000AD569 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D913DE8A1D8D5CC8000AD569 /* Images.xcassets */; };
+		D913DE921D8D5CC8000AD569 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE911D8D5CC8000AD569 /* XCTest.framework */; };
+		D913DE931D8D5CC8000AD569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE681D8D5CC8000AD569 /* Foundation.framework */; };
+		D913DE941D8D5CC8000AD569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D913DE6C1D8D5CC8000AD569 /* UIKit.framework */; };
+		D913DE9C1D8D5CC8000AD569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D913DE9A1D8D5CC8000AD569 /* InfoPlist.strings */; };
+		D913DE9E1D8D5CC8000AD569 /* SK2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE9D1D8D5CC8000AD569 /* SK2Tests.m */; };
+		D913DEA81D8D9AAD000AD569 /* rocket1.png in Resources */ = {isa = PBXBuildFile; fileRef = D913DEA71D8D9AAD000AD569 /* rocket1.png */; };
+		D9D717101D99193B0064CD50 /* asteroid-cuted.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D7170F1D99193B0064CD50 /* asteroid-cuted.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D913DE951D8D5CC8000AD569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D913DE5D1D8D5CC8000AD569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D913DE641D8D5CC8000AD569;
+			remoteInfo = SK2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC8FBE881D99B3BE006C264A /* shuttle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuttle.png; sourceTree = "<group>"; };
+		BC8FBE891D99B3BE006C264A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		BC8FBE8A1D99B3BE006C264A /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		BC8FBE8B1D99B3BE006C264A /* space_stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space_stars.png; sourceTree = "<group>"; };
+		BC8FBE8C1D99B3BE006C264A /* space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space.png; sourceTree = "<group>"; };
+		BC8FBED91D99B95B006C264A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC8FBEDB1D99BA90006C264A /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		BC8FBEDD1D99BCCA006C264A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		D913DE651D8D5CC8000AD569 /* Asteroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913DE681D8D5CC8000AD569 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D913DE6A1D8D5CC8000AD569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D913DE6C1D8D5CC8000AD569 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D913DE6E1D8D5CC8000AD569 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D913DE721D8D5CC8000AD569 /* Asteroid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Asteroid-Info.plist"; sourceTree = "<group>"; };
+		D913DE741D8D5CC8000AD569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D913DE761D8D5CC8000AD569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D913DE781D8D5CC8000AD569 /* Asteroid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asteroid-Prefix.pch"; sourceTree = "<group>"; };
+		D913DE791D8D5CC8000AD569 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		D913DE7A1D8D5CC8000AD569 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
+		D913DE7D1D8D5CC8000AD569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D913DE801D8D5CC8000AD569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D913DE821D8D5CC8000AD569 /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
+		D913DE831D8D5CC8000AD569 /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
+		D913DE851D8D5CC8000AD569 /* ANMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANMyScene.h; sourceTree = "<group>"; };
+		D913DE861D8D5CC8000AD569 /* ANMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANMyScene.m; sourceTree = "<group>"; };
+		D913DE881D8D5CC8000AD569 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		D913DE8A1D8D5CC8000AD569 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D913DE901D8D5CC8000AD569 /* AsteroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913DE911D8D5CC8000AD569 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D913DE991D8D5CC8000AD569 /* SK2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SK2Tests-Info.plist"; sourceTree = "<group>"; };
+		D913DE9B1D8D5CC8000AD569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D913DE9D1D8D5CC8000AD569 /* SK2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SK2Tests.m; sourceTree = "<group>"; };
+		D913DEA71D8D9AAD000AD569 /* rocket1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket1.png; sourceTree = "<group>"; };
+		D9D7170F1D99193B0064CD50 /* asteroid-cuted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asteroid-cuted.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D913DE621D8D5CC8000AD569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DE6B1D8D5CC8000AD569 /* CoreGraphics.framework in Frameworks */,
+				D913DE6D1D8D5CC8000AD569 /* UIKit.framework in Frameworks */,
+				D913DE6F1D8D5CC8000AD569 /* SpriteKit.framework in Frameworks */,
+				D913DE691D8D5CC8000AD569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913DE8D1D8D5CC8000AD569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DE921D8D5CC8000AD569 /* XCTest.framework in Frameworks */,
+				D913DE941D8D5CC8000AD569 /* UIKit.framework in Frameworks */,
+				D913DE931D8D5CC8000AD569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D913DE5C1D8D5CC8000AD569 = {
+			isa = PBXGroup;
+			children = (
+				D913DE701D8D5CC8000AD569 /* SK2 */,
+				D913DE971D8D5CC8000AD569 /* SK2Tests */,
+				D913DE671D8D5CC8000AD569 /* Frameworks */,
+				D913DE661D8D5CC8000AD569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D913DE661D8D5CC8000AD569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D913DE651D8D5CC8000AD569 /* Asteroid.app */,
+				D913DE901D8D5CC8000AD569 /* AsteroidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D913DE671D8D5CC8000AD569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D913DE681D8D5CC8000AD569 /* Foundation.framework */,
+				D913DE6A1D8D5CC8000AD569 /* CoreGraphics.framework */,
+				D913DE6C1D8D5CC8000AD569 /* UIKit.framework */,
+				D913DE6E1D8D5CC8000AD569 /* SpriteKit.framework */,
+				D913DE911D8D5CC8000AD569 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D913DE701D8D5CC8000AD569 /* SK2 */ = {
+			isa = PBXGroup;
+			children = (
+				BC8FBEDD1D99BCCA006C264A /* icons */,
+				BC8FBEDB1D99BA90006C264A /* launch.jpg */,
+				BC8FBE881D99B3BE006C264A /* shuttle.png */,
+				BC8FBE891D99B3BE006C264A /* star.png */,
+				BC8FBE8A1D99B3BE006C264A /* sun.png */,
+				BC8FBE8B1D99B3BE006C264A /* space_stars.png */,
+				BC8FBE8C1D99B3BE006C264A /* space.png */,
+				D9D7170F1D99193B0064CD50 /* asteroid-cuted.png */,
+				D913DE791D8D5CC8000AD569 /* ANAppDelegate.h */,
+				D913DE7A1D8D5CC8000AD569 /* ANAppDelegate.m */,
+				BC8FBED81D99B95B006C264A /* LaunchScreen.storyboard */,
+				D913DE7C1D8D5CC8000AD569 /* Main_iPhone.storyboard */,
+				D913DE7F1D8D5CC8000AD569 /* Main_iPad.storyboard */,
+				D913DE821D8D5CC8000AD569 /* ANViewController.h */,
+				D913DE831D8D5CC8000AD569 /* ANViewController.m */,
+				D913DE851D8D5CC8000AD569 /* ANMyScene.h */,
+				D913DE861D8D5CC8000AD569 /* ANMyScene.m */,
+				D913DE881D8D5CC8000AD569 /* Spaceship.png */,
+				D913DEA71D8D9AAD000AD569 /* rocket1.png */,
+				D913DE8A1D8D5CC8000AD569 /* Images.xcassets */,
+				D913DE711D8D5CC8000AD569 /* Supporting Files */,
+			);
+			path = SK2;
+			sourceTree = "<group>";
+		};
+		D913DE711D8D5CC8000AD569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D913DE721D8D5CC8000AD569 /* Asteroid-Info.plist */,
+				D913DE731D8D5CC8000AD569 /* InfoPlist.strings */,
+				D913DE761D8D5CC8000AD569 /* main.m */,
+				D913DE781D8D5CC8000AD569 /* Asteroid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D913DE971D8D5CC8000AD569 /* SK2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D913DE9D1D8D5CC8000AD569 /* SK2Tests.m */,
+				D913DE981D8D5CC8000AD569 /* Supporting Files */,
+			);
+			path = SK2Tests;
+			sourceTree = "<group>";
+		};
+		D913DE981D8D5CC8000AD569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D913DE991D8D5CC8000AD569 /* SK2Tests-Info.plist */,
+				D913DE9A1D8D5CC8000AD569 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D913DE641D8D5CC8000AD569 /* Asteroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D913DEA11D8D5CC8000AD569 /* Build configuration list for PBXNativeTarget "Asteroid" */;
+			buildPhases = (
+				D913DE611D8D5CC8000AD569 /* Sources */,
+				D913DE621D8D5CC8000AD569 /* Frameworks */,
+				D913DE631D8D5CC8000AD569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroid;
+			productName = SK2;
+			productReference = D913DE651D8D5CC8000AD569 /* Asteroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D913DE8F1D8D5CC8000AD569 /* AsteroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D913DEA41D8D5CC8000AD569 /* Build configuration list for PBXNativeTarget "AsteroidTests" */;
+			buildPhases = (
+				D913DE8C1D8D5CC8000AD569 /* Sources */,
+				D913DE8D1D8D5CC8000AD569 /* Frameworks */,
+				D913DE8E1D8D5CC8000AD569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D913DE961D8D5CC8000AD569 /* PBXTargetDependency */,
+			);
+			name = AsteroidTests;
+			productName = SK2Tests;
+			productReference = D913DE901D8D5CC8000AD569 /* AsteroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D913DE5D1D8D5CC8000AD569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Noyanov";
+				TargetAttributes = {
+					D913DE641D8D5CC8000AD569 = {
+						DevelopmentTeam = 6953MAU8K8;
+					};
+					D913DE8F1D8D5CC8000AD569 = {
+						TestTargetID = D913DE641D8D5CC8000AD569;
+					};
+				};
+			};
+			buildConfigurationList = D913DE601D8D5CC8000AD569 /* Build configuration list for PBXProject "Asteroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D913DE5C1D8D5CC8000AD569;
+			productRefGroup = D913DE661D8D5CC8000AD569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D913DE641D8D5CC8000AD569 /* Asteroid */,
+				D913DE8F1D8D5CC8000AD569 /* AsteroidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D913DE631D8D5CC8000AD569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8FBEDC1D99BA90006C264A /* launch.jpg in Resources */,
+				D913DE891D8D5CC8000AD569 /* Spaceship.png in Resources */,
+				D913DE8B1D8D5CC8000AD569 /* Images.xcassets in Resources */,
+				BC8FBEDE1D99BCCA006C264A /* icons in Resources */,
+				BC8FBE8F1D99B3BE006C264A /* sun.png in Resources */,
+				BC8FBE8E1D99B3BE006C264A /* star.png in Resources */,
+				BC8FBE911D99B3BE006C264A /* space.png in Resources */,
+				D913DE811D8D5CC8000AD569 /* Main_iPad.storyboard in Resources */,
+				D913DE7E1D8D5CC8000AD569 /* Main_iPhone.storyboard in Resources */,
+				BC8FBEDA1D99B95B006C264A /* LaunchScreen.storyboard in Resources */,
+				D913DE751D8D5CC8000AD569 /* InfoPlist.strings in Resources */,
+				D913DEA81D8D9AAD000AD569 /* rocket1.png in Resources */,
+				D9D717101D99193B0064CD50 /* asteroid-cuted.png in Resources */,
+				BC8FBE901D99B3BE006C264A /* space_stars.png in Resources */,
+				BC8FBE8D1D99B3BE006C264A /* shuttle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913DE8E1D8D5CC8000AD569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DE9C1D8D5CC8000AD569 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D913DE611D8D5CC8000AD569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DE771D8D5CC8000AD569 /* main.m in Sources */,
+				D913DE871D8D5CC8000AD569 /* ANMyScene.m in Sources */,
+				D913DE841D8D5CC8000AD569 /* ANViewController.m in Sources */,
+				D913DE7B1D8D5CC8000AD569 /* ANAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913DE8C1D8D5CC8000AD569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913DE9E1D8D5CC8000AD569 /* SK2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D913DE961D8D5CC8000AD569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D913DE641D8D5CC8000AD569 /* Asteroid */;
+			targetProxy = D913DE951D8D5CC8000AD569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC8FBED81D99B95B006C264A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8FBED91D99B95B006C264A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D913DE731D8D5CC8000AD569 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DE741D8D5CC8000AD569 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D913DE7C1D8D5CC8000AD569 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DE7D1D8D5CC8000AD569 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D913DE7F1D8D5CC8000AD569 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DE801D8D5CC8000AD569 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D913DE9A1D8D5CC8000AD569 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D913DE9B1D8D5CC8000AD569 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8FBE851D99B195006C264A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		BC8FBE861D99B195006C264A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK2/Asteroid-Prefix.pch";
+				INFOPLIST_FILE = "SK2/Asteroid-Info.plist";
+				PRODUCT_NAME = Asteroid;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		BC8FBE871D99B195006C264A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SK2.app/SK2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK2/SK2-Prefix.pch";
+				INFOPLIST_FILE = "SK2Tests/SK2Tests-Info.plist";
+				PRODUCT_NAME = AsteroidTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		D913DE9F1D8D5CC8000AD569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D913DEA01D8D5CC8000AD569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D913DEA21D8D5CC8000AD569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK2/Asteroid-Prefix.pch";
+				INFOPLIST_FILE = "SK2/Asteroid-Info.plist";
+				PRODUCT_NAME = Asteroid;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D913DEA31D8D5CC8000AD569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK2/Asteroid-Prefix.pch";
+				INFOPLIST_FILE = "SK2/Asteroid-Info.plist";
+				PRODUCT_NAME = Asteroid;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D913DEA51D8D5CC8000AD569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SK2.app/SK2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK2/SK2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SK2Tests/SK2Tests-Info.plist";
+				PRODUCT_NAME = AsteroidTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D913DEA61D8D5CC8000AD569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SK2.app/SK2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK2/SK2-Prefix.pch";
+				INFOPLIST_FILE = "SK2Tests/SK2Tests-Info.plist";
+				PRODUCT_NAME = AsteroidTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D913DE601D8D5CC8000AD569 /* Build configuration list for PBXProject "Asteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913DE9F1D8D5CC8000AD569 /* Debug */,
+				D913DEA01D8D5CC8000AD569 /* Release */,
+				BC8FBE851D99B195006C264A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		D913DEA11D8D5CC8000AD569 /* Build configuration list for PBXNativeTarget "Asteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913DEA21D8D5CC8000AD569 /* Debug */,
+				D913DEA31D8D5CC8000AD569 /* Release */,
+				BC8FBE861D99B195006C264A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		D913DEA41D8D5CC8000AD569 /* Build configuration list for PBXNativeTarget "AsteroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913DEA51D8D5CC8000AD569 /* Debug */,
+				D913DEA61D8D5CC8000AD569 /* Release */,
+				BC8FBE871D99B195006C264A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D913DE5D1D8D5CC8000AD569 /* Project object */;
+}
